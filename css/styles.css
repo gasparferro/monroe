@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'mifuente';
+    src: url('../assets/fonts/monroe-fuente.OTF') format('opentype');
+}
+
+
+
+
+#caja{
+    width: 256px;
+    height: 256px;
+    background-color: #afafaf;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+#thumbs img{
+    width: 128px;
+    cursor: pointer;
+    margin: 4px;
+    border: 1px solid #282c2a;
+    
+}
+
+
+#thumbs {
+    display: flex; /* Para que las imágenes estén en una fila */
+    overflow-x: auto; /* Agregar desplazamiento horizontal si las imágenes no caben */
+}
+
+#ampliada{
+    max-width: 50%; /* Ajusta el tamaño máximo al 100% del contenedor padre */
+    max-height: 50%; /* Ajusta la altura máxima al 100% del contenedor padre */
+    display: block; /* Para evitar espacios adicionales debajo de la imagen */
+    margin: auto; 
+}
+
+body {
+    
+    background-size: contain; 
+    background-position: center 300px;
+    background-repeat: no-repeat;
+    font-family: 'mifuente';
+    background-color: #070101;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: rgb(168, 30, 30);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
